@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 26px;
+	color: #606161;
+	font-family: tahoma;
+  background-color: #F6F6F6;
+}
+
+#logo {
+  text-align: left;
+}
+#slogan {
+  padding-top: 20px;
+  font-style: italic;
+  font-size: 32px;
+}
+
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+ul.topnav li a:hover {background-color: #FF0066;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.menu {
+  width: 100%;
+  background-color: #333;
+}
+
+.hero {
+  width:100%;
+}
+
+.blogimage {
+	width:100%;
+}
+
+.breadcrumbs ul {
+  list-style-type: none;
+  width: 300px;
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+.breadcrumbs li a {
+  color: #606161;
+}
+
+.breadcrumbs li {
+   display: inline;
+}
+
+#blogtitle {
+  text-align: center;
+  margin: 0;
+}
+
+.listnav {
+  text-align: center;
+  border-top: solid 4px #606161;
+  border-bottom: solid 4px #606161;
+}
+
+.listnav li {
+	display:inline;
+}
+
+.listnav li a {
+	text-decoration: none;
+  padding: 14px 16px;
+  color: #606161;
+  font-size: 20px;
+}
+
+.listnav li a:hover {color: #FF0066;}
+
+.blog-item {
+	text-align: center;
+  background-color: white;
+  padding-bottom: 15px;
+  
+}
+
+.articletitle {
+  font-size: 24px;
+}
+
+small {
+  font-size: 16px;
+}
+
+.quote {
+  font-style:italic;
+  color:#FF0066;
+}
+
+.pagination ul {
+  list-style-type: none;
+  //width: 300px;
+  //margin: 20px 0px;
+  font-size: 18px;
+}
+
+.pagination li a {
+  color: #606161;
+}
+
+.pagination li {
+   display: inline;
