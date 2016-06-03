@@ -11,7 +11,7 @@ body {
 	font-size: 26px;
 	color: #606161;
 	font-family: tahoma;
-  background-color: #F6F6F6;
+  background-color: white;
 }
 
 #logo {
@@ -21,6 +21,7 @@ body {
   padding-top: 20px;
   font-style: italic;
   font-size: 32px;
+  color: #FF0066;
 }
 
 body {margin:0;}
@@ -44,7 +45,7 @@ ul.topnav li a {
   font-size: 20px;
 }
 
-ul.topnav li a:hover {background-color: #FF0066;}
+ul.topnav li a:hover {background-color: #606161;}
 
 ul.topnav li.icon {display: none;}
 
@@ -91,6 +92,7 @@ ul.topnav li.icon {display: none;}
   width: 300px;
   margin: 20px 0px;
   font-size: 18px;
+  padding-left: 30px;
 }
 
 .breadcrumbs li a {
@@ -110,6 +112,7 @@ ul.topnav li.icon {display: none;}
   text-align: center;
   border-top: solid 4px #606161;
   border-bottom: solid 4px #606161;
+  margin-bottom: 15px;
 }
 
 .listnav li {
@@ -125,11 +128,63 @@ ul.topnav li.icon {display: none;}
 
 .listnav li a:hover {color: #FF0066;}
 
+.active {background-color: #FF0066;}
+
 .blog-item {
 	text-align: center;
-  background-color: white;
-  padding-bottom: 15px;
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-height: 424px;
   
+}
+
+.blog-item a {
+  text-decoration: none;
+  color:#606161;
+}
+
+.quotewrapper {
+  display: table;
+}
+
+.recentposts {
+  font-size: 30px;
+}
+
+.blog-article {
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-height: 424px;
+}
+
+.blog-article p {
+  font-size:20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.blogtitle {
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 15px;
+  margin-bottom: 0px;
+
+}
+
+.article-date {
+  padding: 15px ;
+  margin-bottom: 15px;
+}
+
+.blog-side {
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-height: 300px;
+
 }
 
 .articletitle {
@@ -143,7 +198,12 @@ small {
 .quote {
   font-style:italic;
   color:#FF0066;
+  margin: 0px;
+  display:table-cell;
+  vertical-align: middle;
 }
+
+
 
 .pagination ul {
   list-style-type: none;
@@ -158,3 +218,87 @@ small {
 
 .pagination li {
    display: inline;
+}
+#previous {
+  text-align: left;
+}
+
+#page{
+  text-align: center;
+}
+
+#next {
+  text-align: right;
+}
+
+
+footer {
+ 
+  
+  width: 100%;
+  
+  background-color: #f5f5f5;
+}
+
+
+/*FOOTER*/
+.social p {
+  color: #fff;
+  font-weight: 300;
+}
+.social  li {
+  list-style: none;
+}
+.social a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  padding-right: 23px;
+}
+#phoneIcon, #number{
+    height: 33px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.social a:hover{
+  color: #575f74;
+}
+.contact p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1em;
+}
+.contact  li {
+  list-style: none;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  padding-right: 23px;
+}
+#number {
+  font-size: 0.5em !important;
+  line-height: 2.3em;
+}
+.footer-distributed{
+  background-color: #333;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+.clubDetails p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 70px;
+  font-size: 1em;
+}
