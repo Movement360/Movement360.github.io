@@ -27,7 +27,7 @@ body {
 body {margin:0;}
 ul.topnav {
   list-style-type: none;
-  margin: 0;
+  margin: 0px 15px;
   padding: 0;
   overflow: hidden;
   
@@ -75,7 +75,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .menu {
-  width: 100%;
+  
   background-color: #333;
 }
 

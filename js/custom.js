@@ -6,3 +6,11 @@ $(function(){
 function myFunction() {
     document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
 }
+
+$(function(){
+
+
+	$(".owl-carousel").owlCarousel();
+
+
+});
